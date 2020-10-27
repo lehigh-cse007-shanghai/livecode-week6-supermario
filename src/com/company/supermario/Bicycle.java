@@ -1,8 +1,19 @@
 package com.company;
 
 public class Bicycle {
+    // TODO: add different constructors
+
     Circle frontCircle = new Circle();
     Circle backCircle = new Circle();
+    int speed = 10;
+
+    void speedUp(){
+        speed += 2;
+    }
+
+    void slowDown(){
+        speed -= 2;
+    }
 
     void presentMyself()
     {
