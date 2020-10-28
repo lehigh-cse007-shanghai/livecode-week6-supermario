@@ -1,4 +1,4 @@
-package com.company;
+package com.company.supermario;
 
 import java.util.Scanner;
 

@@ -1,7 +1,13 @@
-package com.company.supermario;
+package com.company.breakpoint;
 
 public class CallByValue {
 
+    public int attribute;
+
+    public void function()
+    {
+        System.out.println("Do something in CallByValue");
+    }
     // pass by value
     static void swapValues(int a, int b)
     {

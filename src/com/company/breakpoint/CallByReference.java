@@ -1,4 +1,4 @@
-package com.company.supermario;
+package com.company.breakpoint;
 
 class DataClass
 {
@@ -7,12 +7,12 @@ class DataClass
 
 public class CallByReference {
 
-    void swapValues(DataClass a, DataClass b)
+    void swapValues(DataClass x, DataClass y)
     {
         int tmp;
-        tmp = a.value;
-        a.value = b.value;
-        b.value = tmp;
+        tmp = x.value;
+        x.value = y.value;
+        y.value = tmp;
     }
 
     public static void main(String[] args)
